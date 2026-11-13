@@ -61,11 +61,11 @@ public class curp {
 
     public static String obtenerFecha(String fecha) {
 
-        String anio = fecha.substring(8, 10);
+        String año = fecha.substring(8, 10);
         String mes = fecha.substring(3, 5);
         String dia = fecha.substring(0, 2);
 
-        return anio + mes + dia;
+        return año + mes + dia;
     }
 
     public static String obtenerClaveEstado(String estado) {
